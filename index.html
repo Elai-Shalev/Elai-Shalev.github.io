@@ -1,35 +1,101 @@
 <html>
     <head>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 20px;
-                line-height: 1.6;
-                background-color: #f4f4f4;
-            }
-            button {
-                border: 2px solid blue;
-                padding: 10px 20px;
-                background-color: white;
-                cursor: pointer;
-                position: fixed;
-            }
-            button:hover {
-                background-color: #e0e0e0;
-            }
-            
-            p {
-                font-size: 18px;
-            }
-            img {
-                max-width: 20%;
-                height: auto;
-            }
-        </style>
+        <style> 
 
+        .center {
+            text-align: center;
+        }
+        .container {
+            margin: 0 auto;
+            width: 19%;
+            padding: 10px;
+        }
+        .title {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 500;
+            border: #e0e0e0;
+            margin: 0 auto;
+            text-align: center;
+            /*width: 50%;*/
+            
+        }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    background-color:rgba(99, 102, 180, 0.681);
+  }
+  
+  button {
+    border: 5px solid brown;
+    padding: 10px 20px;
+    background-color: white;
+    cursor: pointer;
+    position: fixed;
+  }
+
+  .nav {
+    display: flex;
+  justify-content: space-around; /* aligns the items horizontally */
+  align-items: center; /* aligns the items vertically */
+  height: 100px;
+  background-color: #0e4a68de;
+  color: #fff;
+  }
+
+  ul{
+    list-style-type: none;
+    margin:0 ;
+    padding:0;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    display: block;
+    
+  }
+
+  li {
+    width: auto;
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+  }
+  ul li {
+   display: inline-block;
+}
+
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111111;
+}
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+
+        </style>  
     </head>
     <body>
-        <button>Soon there will be more!</button>
+        <h1 class="title">
+             Elai Shalev
+        </h1>
+        <h3 class="title">
+            Software Engineer
+        </h3>
+        <ul>
+            <li><a href "/Resume.html">Resume</a></li>          
+            <li><a href "#Projects">Projects</a></li>          
+            <li><a href "#Education">Education</a></li>          
+            <li><a href "#Contact">Contact me</a></li>          
+        </ul>
+        
     </body>
 </html>

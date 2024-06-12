@@ -1,0 +1,31 @@
+.container {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    outline: dashed 1px black;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    border: 20px solid blue;
+    padding: 10px 20px;
+    background-color: green;
+    cursor: pointer;
+    position: fixed;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Removed unused classes */
+  
